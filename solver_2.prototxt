@@ -1,0 +1,14 @@
+net: "/home/pytrikfolkertsma/Desktop/deeplearning-cats-dogs-tutorial/caffe_model/caffenet_train_val_2.prototxt"
+test_iter: 25
+test_interval: 25
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 50
+display: 50
+max_iter: 200
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10
+snapshot_prefix: "/home/pytrikfolkertsma/Desktop/deeplearning-cats-dogs-tutorial/caffe_model/snapshot"
+solver_mode: CPU
